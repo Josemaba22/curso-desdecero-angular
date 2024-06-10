@@ -1,0 +1,66 @@
+main {
+    height: 100vh;
+    background-color: rgb(192, 230, 238);
+}
+
+form {
+    background-color: rgb(52, 170, 248);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;  
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px 2px #007BFF;
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(114, 43, 247);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(114, 43, 247, 0.8);
+    cursor: pointer;
+}
+
+p {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;  
+    border-radius: 5px;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 10px 2px #007BFF;
+}

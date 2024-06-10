@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$En5uOL8p3XuWnLwCojUzjOuABd4MybdN3IZV8sPj6k6AFt3OGrsDy",
+      "firstname": "Json",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 2
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$ZNObUJee4hiOizrENYSD/OQzc3nYKiTQqbbzXvfbdc4TO9velqwdW",
+      "username": "jose",
+      "rol": "ADMINISTRADOR",
+      "comfirPass": "Jose.123",
+      "id": 3
+    }
+  ]
+}

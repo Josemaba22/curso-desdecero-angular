@@ -1,0 +1,28 @@
+
+    
+    <form action="" [formGroup]="userForm" class="flexcol flexcenter">
+
+        <h1>Registro</h1>
+
+        <input formControlName="username" type="text" placeholder="Usuario" >
+
+        <input formControlName="email" type="email" placeholder="Email">
+
+        <select formControlName="rol">
+            <option value="" disabled selected>Rol</option>
+            <option value="ADMINISTRADOR">ADMINISTRADOR</option>
+            <option value="RECEPCIONISTA">RECEPCIONISTA</option>
+            <!-- Agrega más opciones aquí si es necesario -->
+        </select>
+    
+        <input formControlName="password" type="password" placeholder="Contraseña">
+
+        <input formControlName="confirmPass" type="password" placeholder="Confirmar Contraseña">
+
+        <div class="flexcenter">
+            <button type="button" (click)="registerUser()">Crear usuario</button>
+        </div>
+
+        <p>¿Ya estas registrado? <a routerLink="/login">Login</a></p>
+    </form>
+    <router-outlet></router-outlet>
